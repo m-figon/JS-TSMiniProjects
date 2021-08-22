@@ -61,6 +61,11 @@ body {
     height: 20rem;
 }
 
+.week-summary h2 {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+}
+
 .tracker-bar h1 {
     font-size: 1rem;
     color: white;
@@ -113,4 +118,30 @@ body {
 .button button:hover {
     background-color: rgb(218, 142, 3);
     cursor: pointer;
+}
+
+.chosen {
+    color: orange
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gray {
+    background-color: gray;
+}
+
+#gray:hover {
+    cursor: auto;
+}
+
+.chart {
+    background-color: orange;
+    width: 5rem;
+    height: 0rem;
+    margin: 0 0.5rem;
 }
